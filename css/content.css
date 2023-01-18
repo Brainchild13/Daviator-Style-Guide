@@ -1,0 +1,40 @@
+.main-content {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 40px 40px 0px;
+    padding: var(--section-padding);
+    background: white;
+    max-width: 100%;
+    width: 840px;
+    border-radius: var(--section-border-radius);
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+}
+
+.section-title {
+    color: var(--dark-aqua-blue);
+    text-align: left;
+    margin-bottom: var(--content-margin-bottom-small);
+    /* TODO: NEEDS IT OWN LINE */
+}
+
+.sub-info {
+
+}
+
+.software-list {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    list-style:  none;
+    font-size: 12px;
+}
+
+.software-list li {
+    padding-right: 10px;
+}

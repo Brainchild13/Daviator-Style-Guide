@@ -1,0 +1,18 @@
+:root {
+    color-scheme: light dark;
+    --light-grey-background: #e5e5e5;
+    --light-grey-background2: #f8ffe5;
+    --light-grey: #e1e8d0;
+    --light-blue: #daf5ff;
+    --sky-blue: #b8e1ff;
+    --aqua-blue: #a4d6cd;
+    --green-blue: #8fcb9b;
+    --grass-green: #5b9279;
+    --dark-aqua-blue: #0f8b8d;
+    --light-lavender: #667ab4;
+    --light-purple: #7161ef;
+
+
+
+    --dark-background: #151417;
+}

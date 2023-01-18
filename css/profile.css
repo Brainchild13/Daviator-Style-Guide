@@ -1,0 +1,28 @@
+.profile-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    vertical-align: center;
+}
+
+.profile-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    align-self: center;
+    /* margin-bottom: var(--content-margin-bottom); */
+    border: 4px solid var(--light-grey-background);
+    object-fit: fill;
+}
+
+.profile-name {
+    color: var(--dark-aqua-blue);
+    margin-bottom: 5px;
+}
+
+.profile-title {
+    color: var(--grass-green);
+    margin-bottom: 50px;
+}

@@ -1,0 +1,9 @@
+:root {
+    --section-border-radius: 10px;
+    --section-border-half-radius: 10px 10px 0 0;
+    --button-border-radius: 20px;
+    --section-margin-bottom: 40px;
+    --content-margin-bottom: 20px;
+    --content-margin-bottom-small: 5px;
+    --section-padding: 20px;
+}
