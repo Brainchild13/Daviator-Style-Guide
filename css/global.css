@@ -161,6 +161,8 @@ img.profile {
     width: 200px;
     width: 200px;
     border-radius: 100%;
+    align-self: center;
+    margin-top: 20px;
 }
 
 @media (prefers-color-scheme: dark) {

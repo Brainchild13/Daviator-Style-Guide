@@ -5,7 +5,7 @@
     padding: var(--section-padding);
     background: white;
     max-width: 100%;
-    width: 840px;
+    width: 1000px;
     border-radius: var(--section-border-radius);
     border-left: 10px solid var(--green-blue);
 }

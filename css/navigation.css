@@ -11,6 +11,9 @@
 }
 
 .logo-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto 0;
 
 }
 
@@ -24,6 +27,8 @@
     list-style: none;
     align-content: center;
     align-self: center;
+    /* justify-content: center; */
+    margin: auto 0;
 
 }
 

@@ -1,6 +1,7 @@
 .home-title {
     color: var(--green-blue);
     font-size: 36px;
+    margin: 0 auto;
 }
 
 h1 {
