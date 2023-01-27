@@ -12,7 +12,30 @@
     --light-lavender: #667ab4;
     --light-purple: #7161ef;
 
+    --light-mood-blue: #1be7ff;
+    --sky-blue: #337ca0;
+    --light-mood-green: #6eeb83;
+    --pure-green: #3ec300;
+    --caution-yellow: #fffc31;
+    --proceed-with-caution-orange: #ff5714;
+    --danger-red: #ff1d15;
+    --hazard-orange: #e13700;
 
+
+    --light-gray1: rgb(240, 240, 240);
+    --light-gray2: rgb(200, 200, 200);
+    --light-gray3: rgb(180, 180, 180);
+    --light-gray4: rgb(140, 140, 140);
+    --light-gray5: rgb(100, 100, 100);
+    --light-gray6: rgb(60, 60, 60);
+
+    --light-grey1: #f8f8f8;
+    --light-grey2: #dcdcdc;
+    --light-grey3: #bebebe;
+    --light-grey4: #a0a0a0;
+    --light-grey5: #686868;
+    --light-grey6: #404040;
 
     --dark-background: #151417;
+    --dark-background2: #252525;
 }

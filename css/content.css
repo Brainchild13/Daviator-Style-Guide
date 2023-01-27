@@ -7,6 +7,13 @@
     max-width: 100%;
     width: 840px;
     border-radius: var(--section-border-radius);
+    border-left: 10px solid var(--green-blue);
+}
+
+section {
+    border-bottom: 3px solid var(--light-grey2);
+    padding: 20px 0;
+
 }
 
 .row {
@@ -14,17 +21,47 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-flow: column wrap;
+    margin: 0 40px 40px 0;
 }
 
 .section-title {
     color: var(--dark-aqua-blue);
     text-align: left;
-    margin-bottom: var(--content-margin-bottom-small);
-    /* TODO: NEEDS IT OWN LINE */
+    margin-bottom: var(--content-margin-bottom);
+    border-left: 3px solid var(--aqua-blue);
+    line-height: 40px;
+    padding: 20px 100px 20px 40px;
+    background: var(--light-grey);
+}
+
+.element-title {
+    color: var(--grass-green);
+    border-left: 3px solid var(--aqua-blue);
+    padding: 20px 100px 20px 40px;
+    margin-bottom: var(--content-margin-bottom);
+    background: var(--light-blue);
+
+}
+
+.element-list {
+    margin-bottom: var(--content-margin-bottom);
+    margin-left: 30px;
+}
+
+.element-list li {
+    padding-bottom: 20px;
+}
+
+.section-div {
+    padding-left: 20px
+}
+
+section div p {
+    /* margin-left: 30px; */
 }
 
 .sub-info {
-
+    color: var(--green-blue);
 }
 
 .software-list {

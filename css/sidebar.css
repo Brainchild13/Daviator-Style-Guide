@@ -2,10 +2,10 @@
     display: flex;
     flex-flow: column nowrap;
     align-content: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     background: white;
-    height: auto;
+    height: fit-content;
     max-width: 350px;
     width: 275px;
     margin: 0 40px 40px;
@@ -19,8 +19,8 @@
     background: var(--green-blue);
     padding: 40px 40px;
     border-radius: var(--section-border-half-radius);
-
     margin-bottom: var(--content-margin-bottom);
+    color: var(--light-grey6);
 }
 
 .sidebar-menu {
