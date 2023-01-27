@@ -1,3 +1,4 @@
+// Formatted date in plain english 
 function getTheDate() {
     let d = new Date();
     let today = d.getDay();
@@ -73,3 +74,6 @@ function getTheDate() {
 }
 
 getTheDate();
+
+// Date raw with full time and timezone 
+console.log(Date())
