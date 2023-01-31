@@ -11,15 +11,60 @@ form {
     border-radius: 15px;
     box-shadow: var(--box-shadow-main-section);
     height: fit-content;
-    max-width: 400px;
-    min-width: 300px;
+    /* max-width: 400px;
+    min-width: 300px; */
     background: white;
     margin: 20px;
 }
 
+.horizontal-add-user-form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: auto;
+    margin-bottom: var(--content-margin-bottom);
+    height: 70px;
+    height: fit-content;
+    gap: 20px;
+}
+
+
+.horizontal-form-fields-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-form-fields-container h3 {
+    font-size: var(--font-12);
+    margin-right: 20px;
+}
+
+.horizontal-add-user-form input[type=text],
+.horizontal-add-user-form input[type=email],
+.horizontal-add-user-form input[type=tel],
+.horizontal-add-user-form input[type=url] {
+    width: 100px;
+    padding: 10px;
+}
+
+.horizontal-add-user-form button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: var(--font-12);
+}
+
+.horizontal-add-user-form button a {
+   
+}
 form h3 {
     text-align: center;
     margin: 20px auto;
+}
+
+.horizontal-add-user-form h3 {
+    text-align: left;
 }
 
 form label {
@@ -92,5 +137,5 @@ form span a {
 }
 
 #update-profile-form {
-    width: 900px;
+    width: fit-content;
 }

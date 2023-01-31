@@ -15,8 +15,8 @@ body {
     display: flex;
     flex-flow: row wrap;
     background: var(--light-grey-background);
-    max-width: auto;
-    width: 100%;
+    /* max-width: auto; */
+    width: fit-content;
 }
 
 /* Lists - Unordered, Ordered, Description Lists */
