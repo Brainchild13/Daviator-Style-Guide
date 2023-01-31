@@ -1,4 +1,4 @@
-@layer global, colors, fonts, borders, headings, navigation, posts, sidebar, profile, content, cards, footer;
+@layer global, colors, fonts, borders, headings, navigation, posts, sidebar, profile, content, cards, forms, footer;
 
 @import 'global.css' layer(global);
 @import 'colors.css' layer(colors);
@@ -11,4 +11,5 @@
 @import 'profile.css' layer(profile);
 @import 'content.css' layer(content);
 @import 'cards.css' layer(cards);
+@import 'forms.css' layer(forms);
 @import 'footer.css' layer(footer);

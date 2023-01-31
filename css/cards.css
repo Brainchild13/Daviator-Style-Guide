@@ -35,6 +35,8 @@
     height: auto;
 }
 
+/* TODO: Adjust image spacing on the horizontal card. Take away align-self from card-featured-img */
+
 .card.horizontal {
     flex-flow: row nowrap;
     width: 700px;
@@ -57,7 +59,7 @@
 .card-featured-img.horizontal {
     align-self: left;
     width: 250px;
-    height: 200px;
+    height: 100%;
     border-radius: 10px 0 0 10px;
     box-shadow: none;
     margin: 0 0 20px 0;
