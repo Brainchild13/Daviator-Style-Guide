@@ -1,0 +1,141 @@
+#forms-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow-main-section);
+    height: fit-content;
+    /* max-width: 400px;
+    min-width: 300px; */
+    background: white;
+    margin: 20px;
+}
+
+.horizontal-add-user-form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: auto;
+    margin-bottom: var(--content-margin-bottom);
+    height: 70px;
+    height: fit-content;
+    gap: 20px;
+}
+
+
+.horizontal-form-fields-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-form-fields-container h3 {
+    font-size: var(--font-12);
+    margin-right: 20px;
+}
+
+.horizontal-add-user-form input[type=text],
+.horizontal-add-user-form input[type=email],
+.horizontal-add-user-form input[type=tel],
+.horizontal-add-user-form input[type=url] {
+    width: 100px;
+    padding: 10px;
+}
+
+.horizontal-add-user-form button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: var(--font-12);
+}
+
+.horizontal-add-user-form button a {
+   
+}
+form h3 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.horizontal-add-user-form h3 {
+    text-align: left;
+}
+
+form label {
+    font-weight: 550;
+    padding: 10px 0 0 10px;
+    margin: 5px;
+    font-size: var(--font-14);
+
+}
+
+form input {
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin: 5px;
+    background: var(--light-gray1);
+    border: 1px solid var(--aqua-blue);
+    /* box-sizing: border-box; */
+    color: var(--dark-background);
+
+}
+
+form input[type=checkbox] {
+    background: var(--light-gray1);
+}
+
+form input:focus {
+    border: 3px solid var(--aqua-blue);
+    background: var(--light-grey-background2);
+    color: var(--dark-background);
+    font-size: var(--font-14);
+}
+
+textarea {
+    background: var(--light-gray1);
+    border-radius: 10px;
+    border: 1px solid var(--aqua-blue);
+    padding: 10px 10px;
+}
+
+textarea:focus {
+    background: var(--light-grey-background2);
+    border: 3px solid var(--aqua-blue);
+}
+
+form button, 
+form .btn {
+    margin: 20px 0;
+    color: black;
+    font-size: var(--font-16);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+form span {
+    align-self: center;
+}
+
+form span a {
+    color: var(--grass-green);
+}
+
+/* Registration form  */
+.registration-form {
+    
+}
+
+.registration-form label,
+.registration-form input {
+
+}
+
+#update-profile-form {
+    width: fit-content;
+}
