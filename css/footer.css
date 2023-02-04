@@ -3,9 +3,9 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
     width: 100%;
-    border-radius: var(--section-border-radius);
+    /* border-radius: var(--section-border-radius); */
     background: white;
-    margin: 0 40px;
+    margin: 0 0px;
     height: auto;
     padding: 40px;
 }

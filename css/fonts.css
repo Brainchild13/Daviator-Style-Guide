@@ -8,4 +8,20 @@
     --font-18: 18px;
     --font-14: 14px;
     --font-12: 12px;
+    --font-10: 10px;
+}
+
+#fonts-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 100px;
+    margin-bottom: var(--content-margin-bottom);
+}
+
+.font-size-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 100px;
+    align-content: center;
+    justify-content: center;
 }

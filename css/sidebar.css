@@ -5,21 +5,22 @@
     justify-content: flex-start;
     text-align: center;
     background: white;
-    height: fit-content;
+    height: 100%;
+    /* height: fit-content; */
     max-width: 350px;
-    width: 275px;
-    margin: 0 40px 40px;
+    width: 250px;
+    /* margin: 0 40px 40px; */
     /* padding: 40px 20px 40px 20px; */
-    border-radius: var(--section-border-radius);
+    /* border-radius: var(--section-border-radius); */
 }
 
 
 
 .sidebar-subtitle {
     background: var(--green-blue);
-    padding: 40px 40px;
-    border-radius: var(--section-border-half-radius);
-    margin-bottom: var(--content-margin-bottom);
+    padding: 40px 20px;
+    /* border-radius: var(--section-border-half-radius); */
+    margin-bottom: var(--content-margin-bottom-medium);
     color: var(--light-grey6);
 }
 
@@ -29,20 +30,26 @@
     text-align: left;
     align-self: center;
     align-items: flex-start;
-    font-size: 22px;
+    font-size: var(--font-18);
     margin-bottom: var(--content-margin-bottom);
 }
 
 .sidebar-li {
-line-height: 30px;
-padding-bottom: 20px;
+    line-height: 30px;
+    padding: 10px;
+    width: 100%;
 }
 
 .sidebar-li>a {
     color: black;
     margin-bottom: var(--content-margin-bottom);
     font-weight: bold;
-    padding-bottom: 20px;
+    width: 100%;
+}
+
+.sidebar-li>a:hover {
+    background: var(--pure-green);
+    width: 100%;
 }
 
 .sidebar-sublist-li {

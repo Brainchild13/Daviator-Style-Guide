@@ -19,6 +19,11 @@ body {
     width: fit-content;
 }
 
+.content-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
 /* Lists - Unordered, Ordered, Description Lists */
 ul {
     list-style: none;

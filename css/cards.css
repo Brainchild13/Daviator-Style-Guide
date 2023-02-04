@@ -39,15 +39,17 @@
 
 .card.horizontal {
     flex-flow: row nowrap;
-    width: 100%;
+    width: 650px;
     height: 220px;
     margin-bottom: var(--content-margin-bottom);
     text-align: left;
 }
 
-.card.horizontal .card-title {
-    align-self: left;
-}
+
+/* .card.horizontal > .card-title { */
+    /* align-self: left; */
+    /* text-align: left;
+} */
 
 .card-featured-img {
     align-self: center;
@@ -83,15 +85,16 @@
 .card-content .horizontal {
     align-items: flex-start;
     /* padding-left: 30px; */
+    text-align: left;
 }
 
 .card-category {
     font-size: 11px;
-    align-self: center;
+    text-align: center;
 }
 
-.card-category .horizontal {
-    align-self: left;
+.card.horizontal .card-category {
+    text-align: left;
 }
 
 .card-title {
@@ -100,11 +103,12 @@
     font-weight: 800;
     line-height: 25px;
     margin-bottom: 10px;
-    align-self: center;
+    /* align-self: center; */
+    text-align: center;
 }
 
-.horizontal .card-title {
-    align-self: left;
+.card.horizontal .card-title {
+    text-align: left;
 }
 
 .card-subtitle {
@@ -116,7 +120,7 @@
     line-height: 20px;
 }
 
-.card-subtitle .horizontal {
+.horizontal.card-subtitle  {
     align-self: left;
 }
 
