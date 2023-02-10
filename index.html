@@ -12,35 +12,28 @@
 
 <body>
     <div class="container">
-        <!-- <header class="nav-container">
+        <header class="nav-container">
             <div class="logo-container">
-                <img src="" alt="" class="logo">
+                <img src="/Daviator-Style-Guide/images/content-images/Qnext-SZ-icon.png" alt="" class="logo" />
                 <h1 class="home-title">BrainChild Style Guide</h1>
             </div>
-            <ul class="main-menu horizontal">
+            <ul class="main-menu">
                 <li class="main-menu-li"><a class="active-button" href="/get-started">Get Started</a></li>
                 <li class="main-menu-li"><a href="/docs">Docs</a></li>
 
                 <li class="main-menu-li"><a href="/About">About</a></li>
                 <li class="main-menu-li"><a href="/in-action">See it in Action</a></li>
                 <li class="main-menu-li"><a href="/git-report">Git Repo</a></li>
-                <li class="main-menu-li"><a href="#"> -->
-
-        <!-- <img class="profile-img" src="./images/content-images/david profile pic400.jpg"
-                            alt="David Profile Image" class="profile"> -->
-
-        <!-- </a></li>
-                <li class="main-menu-li"><a href="#"> -->
-
-        <!-- <input type="button" value="dark-mode" id="dark-mode" class="light"> -->
-
-        <!-- <label class="switch btn-toggle">
+                <li class="main-menu-li"></li>
+                <li class="main-menu-li"><a href="#">
+                        <input type="button" value="dark-mode" id="dark-mode" class="light" />
+                        <label class="switch btn-toggle">
                             <input type="checkbox">
                             <span class="slider round"></span>
                         </label>
                     </a></li>
             </ul>
-        </header> -->
+        </header>
         <div class="content-wrapper">
             <div class="sidebar sidebar-hamburger">
 
@@ -101,11 +94,15 @@
                 <section id="get-started" class="row">
                     <h2 class="section-title">Get Started</h2>
                 </section>
+
                 <section id="ui-elements" class="row">
                     <h2 class="section-title">UI Elements</h2>
-                    <div class="section-div">
+
+                    <!-- Headings Section -->
+                    <div id="headings-section" class="section-div">
                         <h3 class="element-title">Headings</h3>
-                        <ul class="element-list">
+
+                        <ul class="element-list headings-list">
                             <li>
                                 <h1>h1 Heading</h1>
                             </li>
@@ -127,7 +124,9 @@
                         </ul>
 
                     </div>
-                    <div class="section-div">
+
+                    <!-- buttons Section -->
+                    <div id="buttons-section" class="section-div">
                         <h3 class="element-title">Buttons</h3>
                         <div id="buttons-container">
 
@@ -137,7 +136,6 @@
                             <button class="light-mood-blue-btn">
                                 <a href="#">Easy</a>
                             </button>
-
                             <button class="light-mood-green-btn">
                                 <a href="#">Smooth</a>
                             </button>
@@ -154,11 +152,11 @@
                                 <a href="#">Danger</a>
                             </button>
 
-
                         </div>
-
                     </div>
-                    <div class="section-div">
+
+                    <!-- Font Size Section -->
+                    <div id="font-size-section" class="section-div">
                         <h3 class="element-title">Fonts</h3>
                         <div id="fonts-container">
                             <div class="font-size-container">
@@ -173,9 +171,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section-div">
+
+                    <!-- Colors Section -->
+                    <div id="colors-section" class="section-div">
                         <h3 class="element-title">Colors</h3>
                         <div id="colors-container">
+
                             <div class="color-div light-grey-background">
                                 <p>--light-grey-background: #e5e5e5;</p>
                             </div>
@@ -274,6 +275,30 @@
                             <div class="color-div light-grey6">
                                 <p>--light-grey6: #404040;</p>
                             </div>
+                            <div class="color-div red">
+                                <p>--red: #ff0000;</p>
+                            </div>
+                            <div class="color-div orange">
+                                <p>--orange: #ff7300;</p>
+                            </div>
+                            <div class="color-div yellow">
+                                <p>--yellow: #fffb00;</p>
+                            </div>
+                            <div class="color-div green">
+                                <p>--green: #48ff00;</p>
+                            </div>
+                            <div class="color-div aqua">
+                                <p>--aqua: #00ffd5;</p>
+                            </div>
+                            <div class="color-div blue">
+                                <p>--blue: #002bff;</p>
+                            </div>
+                            <div class="color-div purple">
+                                <p>--purple: #7a00ff;</p>
+                            </div>
+                            <div class="color-div fusia">
+                                <p>--fusia: #ff00c8;</p>
+                            </div>
                             <div class="color-div dark-background">
                                 <p>--dark-background: #151417;</p>
                             </div>
@@ -284,15 +309,17 @@
                                 <p>--white: white;</p>
                             </div>
 
-
                         </div>
                     </div>
-                    <div class="section-div">
+
+                    <!-- Card Type Section -->
+                    <div id="card-section" class="section-div">
                         <h3 class="element-title">Cards</h3>
                         <h3>Blog post archive cards - basic</h3>
 
                         <div id="cards-container">
-                            <div class="card vertical card-lg">
+
+                            <div class="card vertical card-lg glow-on-hover">
                                 <img src="./images/content-images/2021-11-08 05.50.26.jpg" alt=""
                                     class="card-featured-img">
                                 <div class="card-content">
@@ -301,11 +328,13 @@
                                     </h3>
                                     <h6 class="card-subtitle">This is the subtitle section</h6>
                                     <p class="card-text">the card content is in this area but abbreviated</p>
-                                    <a href="#">Continue Reading...</a>
+                                    <button>
+                                        <a href="#">Continue Reading...</a>
+                                    </button>
                                 </div>
-
                             </div>
-                            <div class="card vertical card-lg">
+
+                            <div class="card vertical card-lg glow-on-hover">
                                 <img src="./images/content-images/2021-11-26 10.39.10.jpg" alt=""
                                     class="card-featured-img">
                                 <div class="card-content">
@@ -314,11 +343,13 @@
                                     </h3>
                                     <h6 class="card-subtitle">This is the subtitle section</h6>
                                     <p class="card-text">the card content is in this area but abbreviated</p>
-                                    <a href="#">Continue Reading...</a>
+                                    <button>
+                                        <a href="#">Continue Reading...</a>
+                                    </button>
                                 </div>
-
                             </div>
-                            <div class="card vertical card-lg">
+
+                            <div class="card vertical card-lg glow-on-hover">
                                 <img src="./images/content-images/2021-11-29 12.29.01.jpg" alt=""
                                     class="card-featured-img">
                                 <div class="card-content">
@@ -327,11 +358,13 @@
                                     </h3>
                                     <h6 class="card-subtitle">This is the subtitle section</h6>
                                     <p class="card-text">the card content is in this area but abbreviated</p>
-                                    <a href="#">Continue Reading...</a>
+                                    <button>
+                                        <a href="#">Continue Reading...</a>
+                                    </button>
                                 </div>
-
                             </div>
-                            <div class="card vertical card-lg">
+
+                            <div class="card vertical card-lg glow-on-hover">
                                 <img src="./images/content-images/2022-06-07 20.26.25.jpg" alt=""
                                     class="card-featured-img">
                                 <div class="card-content">
@@ -340,15 +373,21 @@
                                     </h3>
                                     <h6 class="card-subtitle">This is the subtitle section</h6>
                                     <p class="card-text">the card content is in this area but abbreviated</p>
-                                    <a href="#">Continue Reading...</a>
+                                    <button>
+                                        <a href="#">Continue Reading...</a>
+                                    </button>
                                 </div>
-
                             </div>
+
                         </div>
+                        <!-- End of Card container vertical cards large -->
+
+
                         <div class="cards-container">
                             <h3>Horizontal blog cards</h3>
-                            <div class="card horizontal card-lg">
-                                <img src="./images/content-images/2021-10-01 11.19.39.jpg" alt=""
+
+                            <div class="card horizontal card-lg glow-on-hover">
+                                <img src="./images/content-images/2022-10-21 14.00.04.jpg" alt=""
                                     class="card-featured-img horizontal">
                                 <div class="card-content">
                                     <h6 class="card-category">News Software Education</h6>
@@ -356,13 +395,14 @@
                                     </h3>
                                     <h6 class="card-subtitle">This is the subtitle section</h6>
                                     <p class="card-text">the card content is in this area but abbreviated</p>
-                                    <a href="#">Continue Reading...</a>
+                                    <button>
+                                        <a href="#">Continue Reading...</a>
+                                    </button>
                                 </div>
-
                             </div>
 
 
-                            <div class="card horizontal card-lg">
+                            <div class="card horizontal card-lg glow-on-hover">
                                 <img src="./images/content-images/2021-11-08 05.51.07.jpg" alt=""
                                     class="card-featured-img horizontal">
                                 <div class="card-content">
@@ -371,11 +411,13 @@
                                     </h3>
                                     <h6 class="card-subtitle">This is the subtitle section</h6>
                                     <p class="card-text">the card content is in this area but abbreviated</p>
-                                    <a href="#">Continue Reading...</a>
+                                    <button>
+                                        <a href="#">Continue Reading...</a>
+                                    </button>
                                 </div>
-
                             </div>
-                            <div class="card horizontal card-lg">
+
+                            <div class="card horizontal card-lg glow-on-hover">
                                 <img src="./images/content-images/2022-07-07 18.26.34.jpg" alt=""
                                     class="card-featured-img horizontal">
                                 <div class="card-content">
@@ -384,11 +426,13 @@
                                     </h3>
                                     <h6 class="card-subtitle">This is the subtitle section</h6>
                                     <p class="card-text">the card content is in this area but abbreviated</p>
-                                    <a href="#">Continue Reading...</a>
+                                    <button>
+                                        <a href="#">Continue Reading...</a>
+                                    </button>
                                 </div>
-
                             </div>
-                            <div class="card horizontal card-lg">
+
+                            <div class="card horizontal card-lg glow-on-hover">
                                 <img src="./images/content-images/2022-08-14 11.25.04.jpg" alt=""
                                     class="card-featured-img horizontal">
                                 <div class="card-content">
@@ -397,12 +441,17 @@
                                     </h3>
                                     <h6 class="card-subtitle">This is the subtitle section</h6>
                                     <p class="card-text">the card content is in this area but abbreviated</p>
-                                    <a href="#">Continue Reading...</a>
+                                    <button>
+                                        <a href="#">Continue Reading...</a>
+                                    </button>
                                 </div>
-
                             </div>
+
                         </div>
+                        <!-- End of card container horizontal cards large -->
+
                         <div class="cards-container">
+
                             <div class="card vertical card-lg profile">
                                 <img class="profile" src="./images/content-images/david profile pic400.jpg" alt=""
                                     class="card-featured-img">
@@ -410,7 +459,7 @@
                                     <h6 class="card-category">React MongoDB Express Node.js</h6>
                                     <h3 class="card-title">David Schwartz</h3>
                                     <h6 class="card-subtitle">Full Stack Senior Software Engineer</h6>
-                                    <h3>Contact Info</h3>
+                                    <!-- <h3>Contact Info</h3> -->
                                     <p class="card-text"><strong>Email: </strong><a
                                             href="mailto:davidschwartz23@gmail.com">David
                                             Schwartz</a></p>
@@ -426,41 +475,76 @@
                                         </strong> 90232 <br>
                                     </address>
                                     </p>
-                                    <a class="bio-link" href="#">See Full Bio...</a>
+                                    <button>
+                                        <a class="bio-link" href="#">See Full Bio...</a>
+                                    </button>
                                 </div>
-
                             </div>
 
 
                         </div>
+                        <!-- End of card container for profile card large -->
                     </div>
-                    <div class="section-div">
+                    <!-- End of Card Section -->
+
+                    <div id="images-section" class="section-div">
                         <h3 class="element-title">Images</h3>
                         <div id="images-container">
 
                             <p>
                             <h4>Full Size Image width: 100%; height: auto;</h4>
                             <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="full-size">
+                            </p>
+
+                            <p>
                             <h4>Large Size Image width: 600px; height: auto;</h4>
                             <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="large">
-                            <h4>Medium Size Image width: 400px%; height: auto;</h4>
-
-                            <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="medium">
-                            <h4>Small Size Image width: 100%; height: auto;</h4>
-
-                            <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="small">
-                            <h4>Thumb Size Image width: 100%; height: auto;</h4>
-
-                            <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="thumb">
-                            <h4>Profile Image width: 100%; height: auto;</h4>
-
-                            <img src="./images/content-images/david profile pic400.jpg" alt="" class="profile">
-                            <image class="hero"></image>
                             </p>
-                        </div>
-                    </div>
 
-                    <div class="section-div">
+                            <p>
+                            <h4>Medium Size Image width: 400px%; height: auto;</h4>
+                            <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="medium">
+                            </p>
+
+                            <p>
+                            <h4>Small Size Image width: 100%; height: auto;</h4>
+                            <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="small">
+                            </p>
+
+                            <p>
+                            <h4>Thumb Size Image width: 100%; height: auto;</h4>
+                            <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="thumb">
+                            </p>
+
+                            <p>
+                            <h4>Profile Image width: 100%; height: auto;</h4>
+                            <img src="./images/content-images/david profile pic400.jpg" alt="" class="profile">
+                            </p>
+
+                            <h4>Hero Image with Text centered in middle of image</h4>
+                            <div class="hero-container text-centered">
+                                <div class="hero-text-content">
+                                    <h1 class="hero-title-h1">Featured Title</h1>
+                                    <p class="hero-title-p">Text is centered in the image</p>
+                                </div>
+                            </div>
+
+                            <h4>Hero Image with text to the left side of container</h4>
+                            <div class="hero-container text-left">
+                                <div class="hero-text-content">
+                                    <h1 class="hero-title-h1">Featured Title</h1>
+                                    <p class="hero-title-p">Text is positioned left in the image</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- End of Images Container -->
+                    </div>
+                    <!-- End of Images Section -->
+
+                    <!-- Tables Section -->
+                    <div id="table-section" class="section-div">
                         <h3 class="element-title">Tables</h3>
                         <div id="tables-container">
                             <table>
@@ -502,10 +586,69 @@
                                     <td><button class="light-mood-blue-btn">Edit</button></td>
                                     <td><button class="danger-btn">Delete</button></td>
                                 </tr>
-
+                                <tr>
+                                    <td>David</td>
+                                    <td>Schwartz</td>
+                                    <td><a href="mailto:david@david.com" target="_blank">david@david.com</a></td>
+                                    <td><a href="tel:+310-555-5555">310-555-5555</a></td>
+                                    <td><a href="http://www.thebrainchilddesign.com">www.thebrainchilddesign.com</a>
+                                    </td>
+                                    <td><button class="light-mood-blue-btn">Edit</button></td>
+                                    <td><button class="danger-btn">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Smith</td>
+                                    <td><a href="mailto:jon@johnja.com" target="_blank">jon@johnja.com</a></td>
+                                    <td><a href="tel:+333-333-3333">333-333-3333</a></td>
+                                    <td><a href="http://www.jj.com">www.jj.com</a></td>
+                                    <td><button class="light-mood-blue-btn">Edit</button></td>
+                                    <td><button class="danger-btn">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Mark</td>
+                                    <td>Henry</td>
+                                    <td><a href="mailto:markeymarkles@mark.com">markeymarkles@mark.com</a></td>
+                                    <td><a href="tel:+555-555-5555">555-555-5555</a></td>
+                                    <td><a href="http://www.marksman.com">www.marksman.com</a></td>
+                                    <td><button class="light-mood-blue-btn">Edit</button></td>
+                                    <td><button class="danger-btn">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td>David</td>
+                                    <td>Schwartz</td>
+                                    <td><a href="mailto:david@david.com" target="_blank">david@david.com</a></td>
+                                    <td><a href="tel:+310-555-5555">310-555-5555</a></td>
+                                    <td><a href="http://www.thebrainchilddesign.com">www.thebrainchilddesign.com</a>
+                                    </td>
+                                    <td><button class="light-mood-blue-btn">Edit</button></td>
+                                    <td><button class="danger-btn">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Smith</td>
+                                    <td><a href="mailto:jon@johnja.com" target="_blank">jon@johnja.com</a></td>
+                                    <td><a href="tel:+333-333-3333">333-333-3333</a></td>
+                                    <td><a href="http://www.jj.com">www.jj.com</a></td>
+                                    <td><button class="light-mood-blue-btn">Edit</button></td>
+                                    <td><button class="danger-btn">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Mark</td>
+                                    <td>Henry</td>
+                                    <td><a href="mailto:markeymarkles@mark.com">markeymarkles@mark.com</a></td>
+                                    <td><a href="tel:+555-555-5555">555-555-5555</a></td>
+                                    <td><a href="http://www.marksman.com">www.marksman.com</a></td>
+                                    <td><button class="light-mood-blue-btn">Edit</button></td>
+                                    <td><button class="danger-btn">Delete</button></td>
+                                </tr>
                             </table>
                         </div>
+                        <!-- End of Tables Container -->
                     </div>
+                    <!-- End of Tables Section -->
+
+
                     <div class="section-div">
                         <h3 class="element-title">Forms</h3>
                         <div id="forms-container">
@@ -588,21 +731,38 @@
                                 <label>Level of Education</label>
                                 <hr>
                                 <br>
+                                <ul class="checkbox-list">
+                                    <li>
 
-                                <input type="checkbox" name="high-school" id="high-school" value="High School">
-                                <label for="high-school">High School</label>
-                                <input type="checkbox" name="associate-degree" id="associate-degree"
-                                    value="associate-degree">
-                                <label for="associate-degree">Associates Degree</label>
-                                <input type="checkbox" name="university-degree" id="university-degree"
-                                    value="university-degree">
-                                <label for="university-degree">University Degree</label>
-                                <input type="checkbox" name="masters-degree" id="masters-degree" value="Masters Degree">
-                                <label for="masters-degree">Master's Degree</label>
-                                <input type="checkbox" name="doctoral-degree" id="doctoral-degree"
-                                    value="Doctoral Degree">
-                                <label for="doctoral-degree">Doctoral Degree</label>
 
+                                        <input type="checkbox" name="high-school" id="high-school" value="High School">
+                                        <label for="high-school">High School</label>
+
+                                    </li>
+                                    <li>
+
+                                        <input type="checkbox" name="associate-degree" id="associate-degree"
+                                            value="associate-degree">
+                                        <label for="associate-degree">Associates Degree</label>
+
+                                    </li>
+                                    <li>
+
+                                        <input type="checkbox" name="masters-degree" id="masters-degree"
+                                            value="Masters Degree">
+                                        <label for="masters-degree">Master's Degree</label>
+                                    </li>
+                                    <li>
+
+                                        <input type="checkbox" name="doctoral-degree" id="doctoral-degree"
+                                            value="Doctoral Degree">
+                                        <label for="doctoral-degree">Doctoral Degree</label>
+                                    </li>
+                                </ul>
+
+                                <br>
+                                <hr>
+                                <br>
 
                                 <label for="bio">Bio</label>
                                 <textarea name="bio" id="bio" cols="30" rows="10"
@@ -631,9 +791,34 @@
                                 <input type="tel" name="friend-phone" id="friend-phone">
                                 <button type="submit">Refer a Friend</button>
                             </form>
+
+
                         </div>
                     </div>
 
+                    <!-- Modals Section -->
+                    <h3 class="element-title">Modals</h3>
+                    <div class="section-div" id="modal-section">
+                        <div id="modal-container">
+                            <button id="full-screen-overlay-btn" class="modal glow-on-hover">Full Screen with
+                                overlay</button>
+                            <!-- The Quick Message Modal -->
+                            <div id="quick-message-modal" class="modal">
+                                <!-- Modal Content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>This is the quick message text. Fill this in with the information of your
+                                        choosing</p>
+                                </div>
+                            </div>
+
+                            <button id="quick-message-btn" class="glow-on-hover">quick Message</button>
+                            <!-- <button id="photo-btn" class="glow-on-hover">Photo</button>
+                            <button id="form-btn" class="glow-on-hover">Form Modal Content</button>
+                            <button id="subscription-btn" class="glow-on-hover">Subscription Modal</button>
+                            <button id="accept-cookies-btn" class="glow-on-hover">Accept Cookies</button> -->
+                        </div>
+                    </div>
 
 
                 </section>
@@ -658,6 +843,7 @@
 
     <script src="/js/index.js"></script>
     <script src="/js/date.js"></script>
+    <script src="/js/modal.js"></script>
 </body>
 
 </html>

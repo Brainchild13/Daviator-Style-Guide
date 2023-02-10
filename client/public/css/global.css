@@ -130,7 +130,7 @@ button a:visited {
     justify-content: center;
     flex-flow: column nowrap;
     align-content: center;
-    margin:  auto;
+    margin: 0 auto;
     margin-bottom: var(--content-margin-bottom);
 }
 
@@ -141,7 +141,7 @@ button a:visited {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin-bottom: var(--content-margin-bottom); */
+    margin-bottom: var(--content-margin-bottom);
 }
 
 .text-centered {
