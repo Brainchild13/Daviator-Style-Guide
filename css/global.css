@@ -135,13 +135,15 @@ button a:visited {
 }
 
 .hero-container {
-    background-image: url('../images/content-images/2021-12-15\ 09.52.08.jpg');
+    background-image: url('../images/content-images/2023-01-23\ 16.47.04.jpg');
     height: 600px;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     /* margin-bottom: var(--content-margin-bottom); */
+    
+
 }
 
 .text-centered {
@@ -149,12 +151,14 @@ button a:visited {
     flex-flow: column wrap;
     align-content: center;
     justify-content: center;
+    text-align: center;
 }
 
 .text-left {
     display: flex;
     flex-flow: column wrap;
-    align-content: center;
+    padding-left: 80px;
+    align-content: flex-start;
     justify-content: center;
 }
 
