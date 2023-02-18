@@ -1,10 +1,6 @@
-#table-section {
-    margin-bottom: var(--content-margin-bottom);
-}
-
 #tables-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
 table {

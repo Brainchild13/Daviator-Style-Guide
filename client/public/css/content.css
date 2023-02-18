@@ -31,14 +31,10 @@ section {
 
 .element-list li {
     padding-bottom: 20px;
-    
 }
 
 .section-div {
-    padding-left: 20px;
-    width: 100%;
-    margin-bottom: var(--content-margin-bottom);
-
+    padding-left: 20px
 }
 
 section div p {
