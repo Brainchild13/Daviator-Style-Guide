@@ -53,9 +53,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-wrap:  wrap;
     gap: 30px;
     margin-bottom: var(--content-margin-bottom);
+    /* padding: var(--content-margin-left-large); */
+
 }
 
 .color-div {

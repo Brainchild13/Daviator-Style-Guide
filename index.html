@@ -32,17 +32,19 @@
                 <li class="main-menu-li"><a href="/in-action">See it in Action</a></li>
                 <li class="main-menu-li"><a href="/git-report">Git Repo</a></li>
                 <li class="main-menu-li"></li>
-                <li class="main-menu-li"><a href="#">
-                        <input type="button" value="dark-mode" id="dark-mode" class="light" />
-                        <label class="switch btn-toggle">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
-                    </a></li>
-            </ul>
-            <!-- End of Main Menu -->
-
+                <li class="main-menu-li">
+                    <!-- TODO: Add something here or erase it -->
+                </li>
+                <!-- Dark Mode Switch -->
+                <div class="switch">
+                    <div class="flicker"></div>
+                    <div class="sun"></div>
+                    <div class="moon"></div>
+                </div>
         </header>
+        </ul>
+        <!-- End of Main Menu -->
+
         <!-- End Nav-container -->
 
         <!-- Content Wrapper -->
@@ -50,7 +52,7 @@
 
             <!-- Sidebar -->
             <div class="sidebar sidebar-hamburger">
-                <h2 class="sidebar-subtitle">UI Components</h2>
+                <h2 class="sidebar-subtitle">Style Elements</h2>
 
                 <!-- Sidebar Menu -->
                 <ul class="sidebar-menu">
@@ -63,7 +65,7 @@
                             <li class="sidebar-sublist-li"><a href="#images">Images</a></li>
                             <li class="sidebar-sublist-li"><a href="#tables">Tables</a></li>
                             <li class="sidebar-sublist-li"><a href="#forms">Forms</a></li>
-                            <li class="sidebar-sublist-li"><a href="#color-divs">color-divs</a></li>
+                            <li class="sidebar-sublist-li"><a href="#color-divs">color-section</a></li>
                             <li class="sidebar-sublist-li"><a href="#cards">Cards</a></li>
                             <li class="sidebar-sublist-li"><a href="#">Html General</a></li>
                             <li class="sidebar-sublist-li"><a href="#">Body</a></li>
@@ -99,7 +101,7 @@
                 <section id="introduction" class="row">
                     <h2 class="section-title">Introduction</h2>
                     <h4 class="sub-info"></h4>
-                    <div>
+                    <div class="software-list-container">
                         <ul class="software-list">
                             <li><a href="#">HTML</a></li>
                             <li><a href="#">CSS</a></li>
@@ -111,6 +113,15 @@
                 <!-- Get Started Section -->
                 <section id="get-started" class="row">
                     <h2 class="section-title">Get Started</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores iure quod minima, animi
+                        distinctio voluptas vero aut placeat praesentium quis odit alias dicta dolorem beatae
+                        dignissimos deserunt atque totam veritatis.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores iure quod minima, animi
+                        distinctio voluptas vero aut placeat praesentium quis odit alias dicta dolorem beatae
+                        dignissimos deserunt atque totam veritatis.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores iure quod minima, animi
+                        distinctio voluptas vero aut placeat praesentium quis odit alias dicta dolorem beatae
+                        dignissimos deserunt atque totam veritatis.</p>
                 </section>
 
                 <!-- UI Elements Section -->
@@ -338,7 +349,7 @@
                     <!-- Card Type Section -->
                     <div id="card-section" class="section-div">
                         <h3 class="element-title">Cards</h3>
-                        <h3>Blog post archive cards - basic</h3>
+                        <h3 class="card-type-title">Blog post archive cards - basic</h3>
 
                         <div id="cards-container">
 
@@ -478,7 +489,7 @@
                         <div class="cards-container">
 
                             <!-- Vertical Profile Card -->
-                            <div class="card vertical card-lg profile">
+                            <div class="card vertical card-lg profile glow-on-hover">
                                 <img class="profile" src="./images/content-images/david profile pic400.jpg" alt=""
                                     class="card-featured-img">
                                 <div class="card-content">
@@ -494,7 +505,7 @@
                                     </p>
                                     <p class="card-text">
                                     <address>
-                                        <h3>Address</h3>
+                                        <h3 class="profile-card-address">Address</h3>
                                         <strong>Street: </strong> 4141 Elenda St #4 <br>
                                         <strong>City: </strong> Culver City <br><strong>State: </strong> California
                                         <br><strong>Zip:
@@ -520,56 +531,62 @@
                         <div id="images-container">
 
                             <p>
-                            <h4>Full Size Image width: 100%; height: auto;</h4>
+                            <h3 class="image-type-title">Full Size Image width: 100%; height: auto;</h3>
                             <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="full-size">
                             </p>
 
                             <p>
-                            <h4>Large Size Image width: 600px; height: auto;</h4>
+                            <h3 class="image-type-title">Large Size Image width: 600px; height: auto;</h3>
                             <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="large">
                             </p>
 
                             <p>
-                            <h4>Medium Size Image width: 400px%; height: auto;</h4>
+                            <h3 class="image-type-title">Medium Size Image width: 400px%; height: auto;</h3>
                             <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="medium">
                             </p>
 
                             <p>
-                            <h4>Small Size Image width: 100%; height: auto;</h4>
+                            <h3 class="image-type-title">Small Size Image width: 100%; height: auto;</h3>
                             <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="small">
                             </p>
 
                             <p>
-                            <h4>Thumb Size Image width: 100%; height: auto;</h4>
+                            <h3 class="image-type-title">Thumb Size Image width: 100%; height: auto;</h3>
                             <img src="./images/content-images/2021-12-15 09.52.08.jpg" alt="" class="thumb">
                             </p>
 
                             <p>
-                            <h4>Profile Image width: 100%; height: auto;</h4>
+                            <h3 class="image-type-title">Profile Image width: 100%; height: auto;</h3>
                             <img src="./images/content-images/david profile pic400.jpg" alt="" class="profile">
                             </p>
 
-                            <!-- Hero Images -->
-                            <h4>Hero Image with Text centered in middle of image</h4>
-                            <div class="hero-container text-centered">
+                        </div>
+                        <!-- End of Images Container -->
+
+                        <!-- Hero Images -->
+                        <h3 class="image-type-title">Hero Image with Text centered in middle of image</h3>
+                        <div class="hero-container ">
+                            <div class="overlay text-centered">
                                 <div class="hero-text-content">
-                                    <h1 class="hero-title-h1">Featured Title</h1>
+                                    <h1 class="hero-title-h1">Featured Title Centered in the middle of the hero image
+                                    </h1>
                                     <p class="hero-title-p">Text is centered in the image</p>
                                 </div>
                             </div>
 
-                            <h4>Hero Image with text to the left side of container</h4>
-                            <div class="hero-container text-left">
+                        </div>
+
+                        <h3 class="image-type-title">Hero Image with text to the left side of container</h3>
+                        <div class="hero-container ">
+                            <div class="overlay text-left">
                                 <div class="hero-text-content">
-                                    <h1 class="hero-title-h1">Featured Title</h1>
+                                    <h1 class="hero-title-h1">Featured Title floated to the left</h1>
                                     <p class="hero-title-p">Text is positioned left in the image</p>
                                 </div>
                             </div>
-                            <!-- End Hero Images Section -->
-
 
                         </div>
-                        <!-- End of Images Container -->
+                        <!-- End Hero Images Section -->
 
                     </div>
                     <!-- End of Images Section -->
@@ -579,7 +596,7 @@
                         <h3 class="element-title">Tables</h3>
                         <div id="tables-container">
                             <table>
-                                <h3>Basic User Table</h3>
+                                <h3 class="image-type-title">Basic User Table</h3>
                                 <tr>
                                     <th>First Name</th>
                                     <th>Last Name</th>
@@ -875,7 +892,7 @@
 
         <footer>
             <ul class="footer-menu">
-                <li class="footer-li"><a href="#">copyright BrainChild Design </a></li>
+                <li class="footer-li"><a href="#">Copyright BrainChild Design </a></li>
                 <li class="footer-li"><a href="#">Request a feature</a></li>
                 <li class="footer-li"><a href="#">Help Development</a></li>
                 <li class="footer-li"><a href="#">Support</a></li>
@@ -883,9 +900,10 @@
         </footer>
     </div>
 
-    <script src="/js/index.js"></script>
-    <script src="/js/date.js"></script>
-    <script src="/js/modal.js"></script>
+    <!-- <script src="/js/index.js"></script> -->
+    <script src="./js/darkmode.js"></script>
+    <script src="./js/date.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

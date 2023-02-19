@@ -17,15 +17,21 @@ h2 {
 }
 
 .section-title {
-    color: var(--sky-blue2);
+    display: block;
     text-align: left;
     margin-bottom: var(--content-margin-bottom);
-    border-left: 8px solid var(--sky-blue2);
+    /* border-left: 8px solid var(--sky-blue2); */
     line-height: 40px;
-    padding: 20px 100px 20px 40px;
-    background: var(--sky-blue);
+    padding: 20px 0px 20px 40px;
+    color: var(--sky-blue2);
+    background: var(--light-grey3);
     width: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    /* border-bottom: 1px solid var(--sky-blue); */
+}
+
+#introduction .section-title {
+    border-radius: var(--section-border-radius) var(--section-border-radius) 0 0;
 }
 
 h3 {
@@ -37,11 +43,29 @@ h3 {
 
 .element-title {
     color: var(--light-grey5);
-    border: 3px solid var(--light-grey5);
-    border-radius: 10px;
+    text-align: center;
     padding: 20px 100px 20px 40px;
     margin-bottom: var(--content-margin-bottom);
-    background: var(--aqua-blue);
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(30deg, var(--blue), #3afa00, var(--green-blue)) ;
+    background-repeat: no-repeat;
+    background-size: 90% 3px;
+    background-position: bottom;
+}
+ 
+.card-type-title {
+    margin-left: var(--content-margin-left-large);
+
+}
+
+.alternate-title {
+    margin-left: var(--content-margin-left-large);
+}
+
+.image-type-title {
+    margin-left: var(--content-margin-left-large);
+    margin-bottom: var(--content-margin-bottom);
 
 }
 

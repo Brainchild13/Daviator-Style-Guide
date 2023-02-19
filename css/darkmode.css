@@ -1,0 +1,248 @@
+.switch {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+}
+
+.flicker {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: ease-in-out 0.5s;
+    box-shadow: inset 4px 4px 4px rgb(255,255,255), inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+
+.dark {
+    background: var(--dark-background);
+    transition: ease-in-out 0.5s;
+}
+
+.moon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 45px;
+}
+
+.dark .sun {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px dotted white;
+    border-image-outset: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--proceed-with-caution-orange);
+}
+
+.dark .flicker {
+    transform: translateX(40px);
+}
+
+.dark > * {
+    color:rgb(255, 255, 255);
+}
+
+.dark .container {
+    background: transparent;
+}
+
+.dark header {
+    background: var(--dark-background2);
+    border-bottom: 1px solid var(--light-mood-green);
+}
+
+.dark .home-title {
+    color: var(--light-mood-green);
+}
+
+.dark .active-button {
+    color: var(--dark-background);
+}
+
+.dark .switch {
+    border: 1px solid var(--light-mood-green);
+}
+/* TODO: Add hover state for .active-button */
+
+.dark .sidebar {
+    background: var(--dark-background2);
+}
+
+.dark .main-content {
+    background: var(--dark-background2);
+}
+
+.dark .section-title {
+    background: var(--light-grey6);
+    color: var(--sky-blue);
+
+}
+
+.dark .element-title {
+    color: var(--light-mood-green);
+}
+
+/* .dark .card {
+    background: var(--dark-background2);
+} */
+
+.dark a {
+    color:var(--light-mood-green);
+}
+
+.dark button {
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+ /* border-radius: 12px; */
+}
+
+/* .dark button::after {
+    content: "";
+ z-index: -1;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ left: 0;
+ top: 0;
+ border-radius: 10px;
+}
+
+.dark button::before {
+    content: "";
+    background: linear-gradient(45deg, #FF0000, #002BFF, #FF00C8, #002BFF,
+         #FF0000, #002BFF, #FF00C8, #002BFF
+   );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .8s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+@keyframes glowing {
+    0% {
+     background-position: 0 0;
+    }
+   
+    50% {
+     background-position: 400% 0;
+    }
+   
+    100% {
+     background-position: 0 0;
+    }
+}
+
+.dark button::before {
+    opacity: 1;
+}
+
+.dark button:active:after {
+    background: transparent;
+}
+
+.dark button:active {
+    color: #000;
+    font-weight: bold;
+} */
+
+.dark button a {
+    color: var(--dark-background2);
+}
+
+.dark .color-div {
+    color: var(--dark-background2);
+}
+
+.dark .dark-background,
+.dark .dark-background2,
+.dark .light-grey5,
+.dark .light-gray5,
+.dark .light-grey6,
+.dark .light-gray6,
+.dark .blue,
+.dark .purple
+{
+    color: var(--white);
+}
+
+/* .dark .card.vertical,
+.dark .card.horizontal, */
+
+.dark .card,
+.dark .card-content,
+.dark .card-featured-image  {
+    background: var(--dark-background);
+}
+
+.dark .card-title {
+    color: var(--white);
+    /* color: var(--light-mood-green); */
+}
+
+.dark .profile-card-address {
+    color: var(--sky-blue);
+}
+.dark .card-text {
+    color: var(--light-grey4);
+}
+
+.dark .card-subtitle {
+    color: var(--light-grey3);
+}
+
+.dark td, 
+.dark th {
+    border: 1px solid var(--light-grey5);
+}
+
+.dark th,
+.dark table tr:nth-child(odd) {
+    background: var(--light-grey6);
+    color: var(--white);
+}
+
+.dark table tr:nth-child(even) {
+    color: var(--light-grey6);
+}
+
+.dark table tr:nth-child(odd) a {
+    color: var(--white);
+}
+
+.dark table a {
+    color: var(--light-grey6);
+}
+
+.dark form {
+    /* background: var(--light-grey6); */
+    background: #111010;
+}
+
+.dark form h3 {
+    color: var(--sky-blue);
+}
+
+.dark footer {
+    background-color:rgb(28, 28, 28);
+  }
