@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+    margin: var(--content-margin-left-large);
 }
 
 /* Default form layout */
@@ -136,9 +137,11 @@ form span a {
 }
 
 /* Registration form  */
-.registration-form {
+.registration-form,
+.login-form,
+ {
     
-    
+    padding: 25px;
 }
 
 .registration-form label,

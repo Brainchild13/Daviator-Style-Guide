@@ -5,6 +5,8 @@
 #tables-container {
     display: flex;
     flex-flow: column wrap;
+    padding: 0 var(--content-margin-bottom);
+
 }
 
 table {
@@ -13,7 +15,6 @@ table {
     /* margin: 20px; */
     box-shadow: var(--box-shadow-main-section);
     border-radius: 10px;
-    margin-bottom: var(--content-margin-bottom);
 }
 
 td, th {
@@ -30,6 +31,10 @@ th {
 
 tr:nth-child(even) {
     background: var(--aqua-blue);
+}
+
+tr:nth-child(odd) {
+    background: var(--white);
 }
 
 table a {

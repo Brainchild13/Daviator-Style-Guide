@@ -9,7 +9,7 @@
 
 .card {
     display: flex;
-    background: var(--light-gray1);
+    /* background: var(--light-gray1); */
     padding: 0;
     margin: 0;
     border-radius: 10px;
@@ -17,7 +17,6 @@
     text-align: left;
     padding-left: 0;
     /* border: 1px solid red; */
-
 }
 
 .card:hover {
@@ -106,14 +105,14 @@
     height: 200px;
     border-radius: 10px 10px 0 0;
     box-shadow: none;
-    margin: 0 0 20px 0;
+    margin: 0 0 0px 0;
     padding: 0;
     object-fit: cover;
     object-position: center 25%;
-
 }
 .card-featured-img.horizontal {
     align-self: left;
+    vertical-align: c;
     width: 250px;
     height: 100%;
     border-radius: 10px 0 0 10px;
@@ -127,7 +126,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
-    padding: 10px 25px 30px;
+    padding: 20px 25px 30px;
     text-align: center;
 }
 .card.horizontal .card-content {
@@ -191,7 +190,8 @@
 }
 
 .card-text a {
-    color: var(--sky-blue);
+    padding-left: 20px;
+    color: var(--grass-green);
 }
 
 address {

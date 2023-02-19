@@ -33,6 +33,20 @@ section > p {
     margin-left: var(--content-margin-left-large);
 }
 
+
+#cards-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: var(--content-margin-left-large);
+
+}
+
+.cards-container {
+    margin-left: var(--content-margin-left-large);
+
+}
+
 .element-list {
     margin-bottom: var(--content-margin-bottom);
     margin-left: var(--content-margin-left-large);
