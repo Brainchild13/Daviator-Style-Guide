@@ -200,6 +200,10 @@
     /* color: var(--light-mood-green); */
 }
 
+.dark .image-type-title {
+    color: var(--sky-blue);
+}
+
 .dark .profile-card-address {
     color: var(--sky-blue);
 }
