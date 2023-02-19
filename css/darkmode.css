@@ -1,0 +1,101 @@
+.switch {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+}
+
+.flicker {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: ease-in-out 0.5s;
+    box-shadow: inset 4px 4px 4px rgb(255,255,255), inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+
+.dark {
+    background: var(--dark-background);
+    transition: ease-in-out 0.5s;
+}
+
+.moon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 45px;
+}
+
+.dark .sun {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px dotted white;
+    border-image-outset: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--proceed-with-caution-orange);
+}
+
+.dark .flicker {
+    transform: translateX(40px);
+}
+
+.dark > * {
+    color:rgb(255, 255, 255);
+}
+
+.dark .container {
+    background: transparent;
+}
+
+.dark header {
+    background: var(--dark-background2);
+}
+
+.dark .active-button {
+    color: var(--dark-background);
+}
+
+.dark .switch {
+    border: 1px solid var(--light-mood-green);
+}
+/* TODO: Add hover state for .active-button */
+
+.dark .sidebar {
+    background: var(--dark-background2);
+}
+
+.dark .main-content {
+    background: var(--dark-background2);
+}
+
+.dark .section-title {
+    background: var(--light-grey6);
+    color: var(--sky-blue);
+
+}
+
+.dark .element-title {
+    color: var(--light-mood-green);
+}
+
+.dark .card {
+    background: var(--dark-background2);
+}
+
+.dark a {
+    color:var(--light-mood-green);
+}
+
+.dark footer {
+    background-color:rgb(28, 28, 28);
+  }
