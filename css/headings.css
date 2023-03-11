@@ -4,6 +4,12 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 769px) {
+    .nav-container.mobile .home-title {
+        display: none;
+    }
+}
+
 h1 {
     font-size: 36px;
     color: var(--light-grey6);
@@ -34,6 +40,12 @@ h2 {
     border-radius: var(--section-border-radius) var(--section-border-radius) 0 0;
 }
 
+@media screen and (max-width: 1280px) {
+    #introduction .section-title {
+        border-radius: 0;
+    }
+}
+
 h3 {
     font-size: 22px;
     color: var(--dark-aqua-blue);
@@ -46,7 +58,7 @@ h3 {
     text-align: center;
     padding: 20px 100px 20px 40px;
     margin-bottom: var(--content-margin-bottom);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     background: linear-gradient(30deg, var(--blue), #3afa00, var(--green-blue)) ;
     background-repeat: no-repeat;
@@ -99,3 +111,10 @@ h6 {
     color: var(--white);
 }
 
+
+@media screen and (max-width: 769px) {
+    .card-type-title {
+        text-align: center;
+        margin-left: 0;
+    }
+}

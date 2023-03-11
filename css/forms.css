@@ -44,6 +44,7 @@ form span label {
     justify-content: center;
 }
 
+
 .horizontal-form-fields-container h3 {
     font-size: var(--font-12);
     margin-right: 20px;
@@ -138,7 +139,7 @@ form span a {
 
 /* Registration form  */
 .registration-form,
-.login-form,
+.login-form
  {
     
     padding: 25px;
@@ -151,4 +152,32 @@ form span a {
 
 #update-profile-form {
     width: fit-content;
+}
+@media screen and (max-width: 800px) {
+    #forms-container {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 20px;
+    }
+
+    .horizontal-add-user-form h3 {
+        align-self: center;
+    }
+
+    .horizontal-form-fields-container {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        max-width: 375px;
+    }
+
+    .horizontal-add-user-form input[type=text],
+    .horizontal-add-user-form input[type=email],
+    .horizontal-add-user-form input[type=tel],
+    .horizontal-add-user-form input[type=url] {
+
+        width: 100%;
+        padding: 10px;
+    }
 }

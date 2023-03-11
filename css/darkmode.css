@@ -6,7 +6,29 @@
     position: relative;
 }
 
+.switch2 {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: var(--section-padding-large);
+}
+
 .flicker {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: ease-in-out 0.5s;
+    box-shadow: inset 4px 4px 4px rgb(255,255,255), inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+
+.flicker2 {
     width: 30px;
     height: 30px;
     border-radius: 15px;
@@ -20,10 +42,21 @@
 
 .dark {
     background: var(--dark-background);
+    /* background: var(--dark-background); */
     transition: ease-in-out 0.5s;
 }
 
 .moon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 45px;
+}
+
+.moon2 {
     width: 20px;
     height: 20px;
     border-radius: 10px;
@@ -45,7 +78,23 @@
     background: var(--proceed-with-caution-orange);
 }
 
+.dark .sun2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px dotted black;
+    border-image-outset: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--proceed-with-caution-orange);
+}
+
 .dark .flicker {
+    transform: translateX(40px);
+}
+
+.dark .flicker2 {
     transform: translateX(40px);
 }
 
@@ -68,10 +117,26 @@
 
 .dark .active-button {
     color: var(--dark-background);
+    background: var(--light-mood-green);
 }
+
+    
+.dark .burger1 span {
+    background: var(--light-mood-green);
+  }
+  
+  .dark .burger2 span {
+    background: var(--light-mood-green);
+  }
 
 .dark .switch {
     border: 1px solid var(--light-mood-green);
+    /* background-color: rgb(138, 138, 136); */
+}
+.dark .switch2 {
+    /* border: 1px solid var(--light-gray4); */
+    /* background-color: rgb(138, 138, 136); */
+    align-content: center;
 }
 /* TODO: Add hover state for .active-button */
 
