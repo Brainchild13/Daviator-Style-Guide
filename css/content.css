@@ -1,6 +1,7 @@
 .main-content {
     display: flex;
     flex-flow: column nowrap;
+    flex: 1;
     margin: 0 0px 0px 0px;
     /* padding: var(--section-padding) var(--section-padding-large); */
     background: white;

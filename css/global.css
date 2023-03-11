@@ -22,7 +22,8 @@ body {
 .content-wrapper {
     display: flex;
     flex-flow: row nowrap;
-    padding: var(--content-margin-bottom);
+    /* padding: var(--content-margin-bottom); */
+    margin: 0 var(--section-margin-bottom) var(--section-margin-bottom) 0;
 }
 
 /* Lists - Unordered, Ordered, Description Lists */
