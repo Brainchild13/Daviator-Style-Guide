@@ -88,6 +88,13 @@
     margin-top: 20px;
 }
 
+@media screen and (max-width: 476px) {
+    .card.horizontal button  {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
 .card.horizontal button a {
     font-size: var(--font-12);
 
@@ -121,6 +128,37 @@
     padding: 0;
     object-fit: cover;
 }
+@media screen and (max-width: 769px) {
+    #cards-container {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+
+    }
+    .cards-container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin-left: 0;
+
+    }
+    .card.horizontal {
+        flex-flow: column wrap;
+        width: 300px;
+        height: auto;
+        margin-bottom: var(--content-margin-bottom);
+        text-align: left;
+    }
+
+    .card-featured-img.horizontal {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+
 
 .card.vertical .card-content {
     display: flex;

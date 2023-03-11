@@ -14,7 +14,7 @@
     <div class="container">
 
         <!-- Nav-container -->
-        <header class="nav-container">
+        <header class="nav-container desktop">
 
             <!-- Logo Container -->
             <div class="logo-container">
@@ -25,12 +25,13 @@
 
             <!-- Main Menu -->
             <ul class="main-menu">
-                <li class="main-menu-li"><a class="active-button" href="/get-started">Get Started</a></li>
+                <li class="main-menu-li"><a class="active-button" href="#get-started">Get Started</a></li>
                 <li class="main-menu-li"><a href="/docs">Docs</a></li>
 
-                <li class="main-menu-li"><a href="/About">About</a></li>
+                <li class="main-menu-li"><a href="#introduction">About</a></li>
                 <li class="main-menu-li"><a href="/in-action">See it in Action</a></li>
-                <li class="main-menu-li"><a href="/git-report">Git Repo</a></li>
+                <li class="main-menu-li"><a href="https://github.com/Brainchild13/Daviator-Style-Guide"
+                        target="_blank">Git Repo</a></li>
                 <li class="main-menu-li"></li>
                 <li class="main-menu-li">
                     <!-- TODO: Add something here or erase it -->
@@ -45,7 +46,125 @@
             </ul>
             <!-- End of Main Menu -->
         </header>
+
+        <!-- Mobile Menu -->
+        <header class="nav-container mobile">
+
+            <!-- Logo Container -->
+
+            <label for="burger" class="burger1" onclick="openNav1()">
+                <input id="burger" type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="logo-container">
+                <img src="/Daviator-Style-Guide/images/content-images/Qnext-SZ-icon.png" alt="" class="logo" />
+                <h1 class="home-title">BrainChild Style Guide</h1>
+            </div>
+            <!-- End Logo Container -->
+
+            <!-- Main Menu -->
+
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <!-- Sidebar -->
+                    <!-- <h2 class="sidebar-subtitle">Style Elements</h2> -->
+
+                    <!-- Sidebar Menu -->
+                    <!-- <ul class="sidebar-menu"> -->
+                    <!-- <li class="sidebar-li"> -->
+                    <!-- <a href="#">UI Elements</a> -->
+                    <!-- <ul class="sidebar-submenu"> -->
+                    <a href="#headings-section" onclick="closeNav1()">Headings</a>
+                    <a href="#buttons-section" onclick="closeNav1()">Buttons</a>
+                    <a href="#font-size-section" onclick="closeNav1()">Fonts</a>
+                    <a href="#colors-section" onclick="closeNav1()">Colors</a>
+                    <a href="#card-section" onclick="closeNav1()">Cards</a>
+
+                    <a href="#images-section" onclick="closeNav1()">Images</a>
+                    <a href="#table-section" onclick="closeNav1()">Tables</a>
+                    <a href="#forms-section" onclick="closeNav1()">Forms</a>
+                    <a href="#" onclick="closeNav1()">Html General</a>
+                    <a href="#" onclick="closeNav1()">Body</a>
+                    <a href="#" onclick="closeNav1()">Containers</a>
+                    <a href="#" onclick="closeNav1()">Navigation</a>
+                    <a href="#" onclick="closeNav1()">Logo</a>
+                    <a href="#" onclick="closeNav1()">Content</a>
+                    <a href="#" onclick="closeNav1()">Icons</a>
+                    <a href="#" onclick="closeNav1()">Hero</a>
+                    <a href="#" onclick="closeNav1()">Links</a>
+                    <a href="#" onclick="closeNav1()">Sections</a>
+                    <a href="#" onclick="closeNav1()">Rows</a>
+                    <a href="#" onclick="closeNav1()">lists</a>
+                    <a href="#" onclick="closeNav1()">Products</a>
+                    <a href="#" onclick="closeNav1()">Posts</a>
+                    <a href="#" onclick="closeNav1()">profile-img</a>
+                    <a href="#" onclick="closeNav1()">Footer</a>
+                    <a href="#" onclick="closeNav1()">Video</a>
+                    <a href="#" onclick="closeNav1()">Popups</a>
+                    <!-- </ul> -->
+                    <!-- </li> -->
+
+                    <!-- </ul> -->
+
+                    <!-- End of Sidebar  -->
+                </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <!-- <span onclick="openNav2()">open</span> -->
+            <label for="burger2" class="burger2" onclick="openNav2()">
+                <input id="burger2" type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- The overlay2 -->
+            <div id="myNav2" class="overlay2">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+
+                <!-- Overlay content2 -->
+                <div class="overlay-content2">
+                    <h6>Light or Dark</h6>
+                    <!-- Dark Mode Switch -->
+                    <div class="switch2">
+                        <div class="flicker2"></div>
+                        <div class="sun2"></div>
+                        <div class="moon2"></div>
+                    </div>
+
+                    <a class="active-button" href="#get-started">Get Started</a>
+                    <a href="/docs">Docs</a>
+
+                    <a href="/About">About</a>
+                    <a href="/in-action">See it in Action</a>
+                    <a href="https://github.com/Brainchild13/Daviator-Style-Guide" target="_blank">Git Repo</a>
+
+
+                </div>
+
+            </div>
+
+
+            </ul>
+            <!-- End of Main Menu -->
+        </header>
+        <!-- End of Mobile menu -->
         <!-- End Nav-container -->
+
+
 
         <!-- Content Wrapper -->
         <div class="content-wrapper">
@@ -56,17 +175,18 @@
 
                 <!-- Sidebar Menu -->
                 <ul class="sidebar-menu">
-                    <li class="sidebar-li"><a href="#">Getting Started</a></li>
                     <li class="sidebar-li">
                         <a href="#">UI Elements</a>
                         <ul class="sidebar-submenu">
-                            <li class="sidebar-sublist-li"><a href="#headings">Headings</a></li>
-                            <li class="sidebar-sublist-li"><a href="#buttons">Buttons</a></li>
-                            <li class="sidebar-sublist-li"><a href="#images">Images</a></li>
-                            <li class="sidebar-sublist-li"><a href="#tables">Tables</a></li>
+                            <li class="sidebar-sublist-li"><a href="#headings-section">Headings</a></li>
+                            <li class="sidebar-sublist-li"><a href="#buttons-section">Buttons</a></li>
+                            <li class="sidebar-sublist-li"><a href="#font-size-section">Fonts</a></li>
+                            <li class="sidebar-sublist-li"><a href="#colors-section">Colors</a></li>
+                            <li class="sidebar-sublist-li"><a href="#card-section">Cards</a></li>
+
+                            <li class="sidebar-sublist-li"><a href="#images-section">Images</a></li>
+                            <li class="sidebar-sublist-li"><a href="#table-section">Tables</a></li>
                             <li class="sidebar-sublist-li"><a href="#forms">Forms</a></li>
-                            <li class="sidebar-sublist-li"><a href="#color-divs">color-section</a></li>
-                            <li class="sidebar-sublist-li"><a href="#cards">Cards</a></li>
                             <li class="sidebar-sublist-li"><a href="#">Html General</a></li>
                             <li class="sidebar-sublist-li"><a href="#">Body</a></li>
                             <li class="sidebar-sublist-li"><a href="#">Containers</a></li>
@@ -91,11 +211,14 @@
                     </li>
 
                 </ul>
+
             </div>
             <!-- End of Sidebar  -->
 
+
             <!-- Main Content Section -->
             <div class="main-content">
+
 
                 <!-- Introduction Section -->
                 <section id="introduction" class="row">
@@ -700,7 +823,7 @@
 
 
                     <!-- Forms Section -->
-                    <div class="section-div">
+                    <div id="forms-section" class="section-div">
                         <h3 class="element-title">Forms</h3>
 
                         <!-- Forms Container -->
@@ -890,7 +1013,10 @@
             <!-- End of container -->
         </div>
 
-
+        <div class="back-to-top-section">
+            <a href="#introduction"><button id="back-to-top-button" class="back-to-top glow-on-hover">Back to
+                    Top</button></a>
+        </div>
         <footer>
             <ul class="footer-menu">
                 <li class="footer-li"><a href="#">Copyright BrainChild Design </a></li>
@@ -905,6 +1031,7 @@
     <script src="./js/darkmode.js"></script>
     <script src="./js/date.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile.js"></script>
 </body>
 
 </html>
