@@ -1,0 +1,68 @@
+.nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 80px;
+    padding: 0 40px;
+    margin-bottom: var(--section-margin-bottom);
+    top: 0;
+    z-index: 2;
+    position: sticky;
+    
+}
+
+.logo-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 80px;
+  margin: auto 0;
+  gap: 30px;
+
+}
+
+.logo {
+  box-shadow: none;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 0;
+}
+
+/* Home-title class is in Headings.css  */
+
+.main-menu {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-menu-li {
+    margin-left: 30px;
+}
+
+.main-menu li:last-child() {
+    margin-left: 0;
+}
+
+
+.main-menu-li a {
+    text-decoration: none;
+    color: var(--grass-green);
+    font-size: 18px;
+    font-weight: 650;
+}
+
+.main-menu-li a.active-button {
+    background: var(--green-blue);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+

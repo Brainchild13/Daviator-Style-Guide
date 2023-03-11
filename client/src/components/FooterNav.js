@@ -7,9 +7,11 @@ function getYear() {
     return year;
 }
 
+getYear()
+
 export default function Footer() {
     return (
-        <div className="footer">
+        <footer className="footer">
             <ul className="footer-menu">
                 <li className="footer-li">
                     <Link to="https://davidschwartz.biz">David Schwartz - Full Stack Engineer - MERN Stack</Link>
@@ -24,7 +26,7 @@ export default function Footer() {
                     <Link to="https://brainchildhosting.com">BrainChild Hosting</Link>
                 </li>
                 <li className="footer-li">
-                    <Link to="/copyright">The BrainChild Design Copyright {getYear()}</Link>
+                    <Link to="/copyright">The BrainChild Design Copyright </Link>
                 </li>
                 <li className="footer-li">
                     <Link to="/request-a-feature">Request a Feature</Link>
@@ -36,7 +38,7 @@ export default function Footer() {
                     <Link to="/Support">Support</Link>
                 </li>
             </ul>
-        </div>
+        </footer>
     )
 }
 
