@@ -1,27 +1,30 @@
 .back-to-top-section {
-    position: absolute;
+    /* position: absolute; */
     bottom: 10%;
     right: 5%;
-    z-index: 1;
+    z-index: 12;
     position: fixed;
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
+    
+    /* border-radius: 100%; */
 
 }
 
 .back-to-top-section button {
     /* display: flex; */
     /* flex-flow: column wrap; */
-    color: black;
+    color: var(--light-gray6);
     font-weight: 700;
-    border: 1px solid var(--light-grey3);
+    /* border: 1px solid var(--light-grey3); */
     border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    /* background: var(--light-mood-green) !important; */
+    /* background: black!important; */
 
 }
 
 #back-to-top-button {
-    background: var(--light-mood-green) !important;
 }
 
 .main-content {
