@@ -78,6 +78,12 @@ table .danger-btn:hover {
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
+	#tables-container {
+		display: flex;
+		flex-flow: column wrap;
+		padding: 0;
+	}
+
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
 		display: block; 
@@ -123,7 +129,7 @@ only screen and (max-width: 760px),
 	td:nth-of-type(7):before { content: "Delete"; }
 
 	table .light-mood-blue-btn,
-table .danger-btn {
+	table .danger-btn {
 	width: fit-content;
 }
 

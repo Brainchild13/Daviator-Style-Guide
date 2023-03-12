@@ -17,6 +17,7 @@ form {
     min-width: 300px; */
     background: white;
     margin: 20px;
+    max-width: 90%;
 }
 
 
@@ -70,7 +71,7 @@ form span label {
 }
 form h3 {
     text-align: center;
-    margin: 20px auto;
+    /* margin: 20px auto; */
 }
 
 .horizontal-add-user-form h3 {
@@ -95,6 +96,7 @@ form input {
     color: var(--dark-background);
     outline: transparent;
     font-weight: 550;
+    max-width: 99%;
 }
 
 form input[type=checkbox] {
@@ -113,6 +115,7 @@ textarea {
     border-radius: 10px;
     border: 1px solid var(--aqua-blue);
     padding: 10px 10px;
+    max-width: 99%;
 }
 
 textarea:focus {
@@ -127,6 +130,7 @@ form .btn {
     font-size: var(--font-16);
     font-weight: 700;
     letter-spacing: 2px;
+    max-width: 99%; 
 }
 
 form span {
