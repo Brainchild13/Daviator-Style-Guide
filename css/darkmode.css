@@ -130,8 +130,8 @@
   }
 
 .dark .switch {
-    border: 1px solid var(--light-mood-green);
-    /* background-color: rgb(138, 138, 136); */
+    border: 1px solid var(--light-gray5);
+    background-color: rgb(138, 138, 136);
 }
 .dark .switch2 {
     /* border: 1px solid var(--light-gray4); */
