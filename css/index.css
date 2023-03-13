@@ -16,4 +16,7 @@
 @import 'modals.css' layer(modals);
 @import 'effects.css' layer(effects);
 @import 'footer.css' layer(footer);
+
+
+/* Leave Darkmode last to have precedence over all other styles  */
 @import 'darkmode.css' layer(darkmode);
