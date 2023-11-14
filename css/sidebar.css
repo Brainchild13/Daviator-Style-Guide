@@ -23,11 +23,11 @@
 }
 
 .sidebar-subtitle {
-    background: var(--green-blue);
+    background: var(--light-grey6);
     padding: 40px 20px;
     border-radius: var(--section-border-radius) var(--section-border-radius) 0 0;
     margin-bottom: var(--content-margin-bottom-medium);
-    color: var(--light-grey6);
+    color: var(--sky-blue);
     text-align: center;
 }
 

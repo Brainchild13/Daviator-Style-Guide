@@ -31,7 +31,7 @@ body {
     justify-content: center;
     margin: 0 var(--section-margin-bottom) var(--section-margin-bottom) 0;
     width: 100%;
-    max-width: 95%;
+    max-width: 85%;
     margin: 0 auto var(--section-margin-bottom);
 }
 

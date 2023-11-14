@@ -1,5 +1,5 @@
 .home-title {
-    color: var(--fusia);
+    color: var(--grass-green);    
     font-size: 36px;
     margin: 0 auto;
 }
@@ -29,7 +29,7 @@ h2 {
     /* border-left: 8px solid var(--sky-blue2); */
     line-height: 40px;
     padding: 20px 0px 20px 40px;
-    color: var(--sky-blue2);
+    color: var(--light-grey6);
     background: var(--light-grey3);
     width: 100%;
     /* border-radius: 10px; */

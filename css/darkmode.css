@@ -108,7 +108,7 @@
 
 .dark header {
     background: var(--dark-background2);
-    border-bottom: 1px solid var(--light-mood-green);
+    /* border-bottom: 1px solid var(--light-mood-green); */
 }
 
 .dark .home-title {
